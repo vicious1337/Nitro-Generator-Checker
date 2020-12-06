@@ -21,7 +21,7 @@ for n in range(int(num)):
 
 f.close()
 
-with open("Nitro Codes.txt") as f:
+with open("codes.txt") as f:
     for line in f:
         nitro = line.strip("\n")
 
