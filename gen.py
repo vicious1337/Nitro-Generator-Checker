@@ -1,4 +1,4 @@
-import random, string, requests
+import random, string, requests, time
 
 print("""/ vicious#1337
 """)
@@ -23,6 +23,7 @@ with open("codes.txt") as f:
         url = f"https://discordapp.com/api/v6/entitlements/gift-codes/{nitro}?with_application=false&with_subscription_plan=true"
 
         r = requests.get(url)
+            sleep(5) #small cooldown so you dont get ratelimited 
 
         if r.status_code == 200:
             print(f" Valid: {nitro} "
