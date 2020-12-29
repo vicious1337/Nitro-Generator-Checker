@@ -1,7 +1,6 @@
 import random, string
 import webbrowser
 import time
-import requests
 
 print("""/ vicious#1337
 """)
