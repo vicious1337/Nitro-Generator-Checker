@@ -1,4 +1,4 @@
-import random, string
+import random, string, requests
 
 print("""/ vicious#1337
 """)
